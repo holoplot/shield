@@ -120,6 +120,8 @@
     #pragma warning(disable: 4388)
     #pragma warning(disable: 4389)
     #pragma warning(disable: 4435)
+    #pragma warning(disable: 4456)
+    #pragma warning(disable: 4459)
     #pragma warning(disable: 4503)
     #pragma warning(disable: 4510)
     #pragma warning(disable: 4512)
