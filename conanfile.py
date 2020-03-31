@@ -21,6 +21,8 @@ class ShieldConan(ConanFile):
         
     def package(self):
         self.copy("*", src="include", dst="include")
+        self.copy("*.cmake", src="cmake", dst="cmake")
+
 
     def package_info(self):
         self.info.header_only()
