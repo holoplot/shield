@@ -1,6 +1,6 @@
 function(enable_warnings TARGET SCOPE)
     if (APPLE OR UNIX)
-        target_compile_options(${TARGET} ${SCOPE} -Wall -Wextra -pedantic)
+        target_compile_options(${TARGET} ${SCOPE} -Wall -Wextra -Wpedantic -Wconversion)
     elseif(MSVC)
         target_compile_options(${TARGET} ${SCOPE} /W4)
     endif()
