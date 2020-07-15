@@ -125,6 +125,7 @@
     #pragma warning(disable: 4456)
     #pragma warning(disable: 4459)
     #pragma warning(disable: 4503)
+    #pragma warning(disable: 4505)
     #pragma warning(disable: 4510)
     #pragma warning(disable: 4512)
     #pragma warning(disable: 4514)
