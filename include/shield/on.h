@@ -102,6 +102,7 @@
 #elif (_MSC_VER)
     #pragma warning(push)
 
+    #pragma warning(disable: 4018)  // 'expression' : signed/unsigned mismatch
     #pragma warning(disable: 4061)
     #pragma warning(disable: 4062)
     #pragma warning(disable: 4100)
@@ -142,6 +143,7 @@
     #pragma warning(disable: 4628)
     #pragma warning(disable: 4640)
     #pragma warning(disable: 4668)
+    #pragma warning(disable: 4701)  // Potentially uninitialized local variable 'name' used
     #pragma warning(disable: 4702)
     #pragma warning(disable: 4706)
     #pragma warning(disable: 4706)
