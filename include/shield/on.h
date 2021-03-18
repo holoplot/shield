@@ -124,6 +124,7 @@
     #pragma warning(disable: 4389)
     #pragma warning(disable: 4435)
     #pragma warning(disable: 4456)
+    #pragma warning(disable: 4457)
     #pragma warning(disable: 4459)
     #pragma warning(disable: 4503)
     #pragma warning(disable: 4505)
